@@ -1,0 +1,37 @@
+/* Import the index.css file */
+@import "./index.css";
+
+/* Define some styles for the character element */
+.character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Define some styles for the character-options element */
+.character-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Define some styles for the character-option element */
+.character-option {
+    margin: var(--margin);
+}
+
+/* Define some styles for the character-form element */
+.character-form {
+    margin-top: var(--margin);
+}
+
+/* Define some styles for the character-input element */
+.character-input {
+    border: 1px solid var(--tertiary-color);
+    margin-right: var(--margin);
+}
+
+/* Define some styles for the character-submit element */
+.character-submit {
+    margin-left: var(--margin);
+}

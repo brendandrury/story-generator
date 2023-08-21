@@ -1,0 +1,46 @@
+/* Import the index.css file */
+@import "./index.css";
+
+/* Define some styles for the app element */
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Define some styles for the genre element */
+.genre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Define some styles for the genre-options element */
+.genre-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Define some styles for the genre-option element */
+.genre-option {
+    margin: var(--margin);
+}
+
+/* Define some styles for the genre-form element */
+.genre-form {
+    margin-top: var(--margin);
+}
+
+/* Define some styles for the genre-input element */
+.genre-input {
+    border: 1px solid var(--tertiary-color);
+    margin-right: var(--margin);
+}
+
+/* Define some styles for the genre-submit element */
+.genre-submit {
+    margin-left: var(--margin);
+}

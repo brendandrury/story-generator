@@ -1,0 +1,11 @@
+/* Import the index.css file */
+@import "./index.css";
+
+/* Define some styles for the app element */
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+/* Import the index.css file */
+@import "./index.css";
+
+/* Define some styles for the story element */
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Define some styles for the story-content element */
+.story-content {
+    border: 1px solid var(--tertiary-color);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--margin);
+    padding: var(--padding);
+    width: 100%;
+}
+
+/* Define some styles for the story-options element */
+.story-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Define some styles for the story-option element */
+.story-option {
+    margin: var(--margin);
+}
+
+/* Define some styles for the story-actions element */
+.story-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Define some styles for the story-action element */
+.story-action {
+    margin: var(--margin);
+}
